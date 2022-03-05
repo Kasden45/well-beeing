@@ -44,7 +44,7 @@ public class WellbeeingApplication implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://wellbeeing.herokuapp.com");
+                .allowedOrigins("https://wellbeeing-app.herokuapp.com/");
     }
 
     @Bean
