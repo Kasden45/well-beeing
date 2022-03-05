@@ -130,7 +130,7 @@ library.add(farShareSquare)
 
 const app = createApp(App).use(router);
 
-app.config.globalProperties.apiURL = 'http://localhost:8090/'
+app.config.globalProperties.apiURL = 'https://wellbeeing-back.herokuapp.com/'
 app.config.globalProperties.$func_global = func_global
 
 app.use(store)

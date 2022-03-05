@@ -1,7 +1,7 @@
 import moment from "moment";
 import axios from "axios";
 
-const apiURL = 'http://localhost:8090/'
+const apiURL = 'https://wellbeeing-back.herokuapp.com/'
 
 export const func_global = {
 
