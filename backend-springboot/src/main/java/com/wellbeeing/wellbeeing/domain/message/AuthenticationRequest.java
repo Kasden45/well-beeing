@@ -1,5 +1,11 @@
 package com.wellbeeing.wellbeeing.domain.message;
 
+import lombok.*;
+
+@NoArgsConstructor
+@Getter
+@Setter
+@Builder
 public class AuthenticationRequest {
     private String email;
     private String password;
