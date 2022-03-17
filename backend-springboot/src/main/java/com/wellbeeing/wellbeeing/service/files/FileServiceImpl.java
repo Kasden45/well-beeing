@@ -63,8 +63,10 @@ public class FileServiceImpl implements FileService {
                     .resolve(filename);
             Resource resource = new UrlResource(file.toUri());
             if (resource.exists() || resource.isReadable()) {
+                System.out.println("Correct file path: " + file.toString());
                 return resource;
             } else {
+                Syste.out.println("Could not read file path: " + file.toString());
                 throw new RuntimeException("Could not read the file!");
             }
         } catch (MalformedURLException e) {
