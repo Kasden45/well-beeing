@@ -66,7 +66,7 @@ public class FileServiceImpl implements FileService {
                 System.out.println("Correct file path: " + file.toString());
                 return resource;
             } else {
-                Syste.out.println("Could not read file path: " + file.toString());
+                System.out.println("Could not read file path: " + file.toString());
                 throw new RuntimeException("Could not read the file!");
             }
         } catch (MalformedURLException e) {
